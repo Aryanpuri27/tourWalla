@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(179 206 229 / 41%);
+}
+ul {
+  display: flex;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 72px;
+  font-size: 21px;
+  /* background-color: aquamarine; */
+}
+#nameheader {
+  padding: 20px;
+  /* background-color: aquamarine; */
+  right: 60px;
+  font-size: 21px;
+  position: absolute;
+}
+section {
+  /* padding: 100px; */
+  background-color: azure;
+}
+footer {
+  background-color: #d8d8e5d4;
+  padding: 20px;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.child {
+  /* padding: 20px; */
+  margin: auto;
+  background-color: rgb(202, 188, 169);
+  /* display: flex; */
+  flex-wrap: wrap;
+
+  flex-direction: row;
+  border-radius: 20px;
+  margin: 60px;
+  box-shadow: 10px 10px 10px black;
+}
+article {
+  margin: auto;
+  width: 270px;
+}
+.bgimg {
+  object-fit: contain;
+  width: 270px;
+  border-radius: 20px 20px 0px 0px;
+}
+.upper {
+  display: block;
+  box-sizing: border-box;
+  /* padding: 20px; */
+  height: 45px;
+  padding: 10px;
+  height: 90px;
+}
+.name {
+  position: relative;
+  left: 5px;
+  top: 5px;
+  width: 50%;
+  display: block;
+  padding: 5px;
+}
+.rating {
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.duration {
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.upplo {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  float: right;
+  align-items: flex-end;
+}
+.lowwer {
+  padding: 15px;
+}
+.child:hover {
+  transform: scale(1.12);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 90px;
+  margin: 45px;
+  background-color: #c5d9d9;
+  background: -moz-linear-gradient(45deg blue black);
+  border-radius: 50px;
+}
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 300px;
+}
+.submitButton {
+  background-color: chocolate;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+.h11 {
+  padding: 10px;
+  margin: 10px;
+}
